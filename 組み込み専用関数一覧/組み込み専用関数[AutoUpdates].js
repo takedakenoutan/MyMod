@@ -28,7 +28,7 @@ AutoUpdates(Old,New);
 Oldにはいまのバージョンが入ります
 modで変数にバージョンを格納しておくといいでしょう
 
-例:OldVersion=1.0.0;
+例:OldVersion=1.0;
 
 NewにはURLが入ります
 ここでGitHubを使う必要性がでできます
@@ -47,7 +47,7 @@ false
 を返します
 
 *----------使用例----------+
-var OldVersion=1.0.0;
+var OldVersion=1.0;
 
 var NewVersion="https://raw.githubusercontent.com/takedakenoutan/GitHub-test/master/NewText.txt";
 
